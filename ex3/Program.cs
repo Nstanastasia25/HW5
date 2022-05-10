@@ -1,11 +1,51 @@
-﻿// Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.
-int[] numberA(int count) //-Создание массива A
+﻿// Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
+
+void print(int[] array) // создание массива
 {
-    int[] result = new int[count];
-    return result;
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($"{array[i]} ");
+    }
 }
-int[] numberB(int count) //-Создание массива B
+
+void newArray(int[] array)
 {
-    int[] result = new int[count];
-    return result;
+    for (int i = 0; i < 12; i++)
+    {
+        array[i] = new Random().Next(-100, 100);
+    }
 }
+
+int[] array = new int[15];
+
+int Max(int[] array)  // функция которая будет искать максимальный элемент
+{
+int max = array[0];  
+    for (int i = 0; i < array.Count(); i++)
+    {
+        if (max < array[i])   
+        {
+            max = array[i]; 
+        }
+     }
+     return max;
+}
+
+ int Min(int[] array)  // функция которая будет искать минимальный элемент
+{
+int min = array[0];  
+    for (int i = 0; i < array.Count(); i++)
+    {
+        if (min > array[i])   
+        {
+            min = array[i]; 
+        }
+     }
+     return min;
+}
+
+newArray(array);
+print(array);
+Console.WriteLine();
+Console.WriteLine($"Максимальное число = {Max(array)}");
+Console.WriteLine($"Минимальное число = {Min(array)}");
