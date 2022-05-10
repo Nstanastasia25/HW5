@@ -24,17 +24,6 @@ int[] createArray(int elements) //Возвращает массив с ранд�
     return arr;
 }
 
-int EvenNum(int[] array)
-{
-    int length = array.Length;
-    int result = 0;
-    for (int i = 0; i < length; i++)
-    {
-        if (array[i] % 2 == 0) result += 1;
-    }
-    return result;
-}
-
 int SumOfUneven(int[] numbers)  //Возвращает сумму элементов, находящихся на нечетных позициях(с нечетн индексом)
 {
     int result = 0;

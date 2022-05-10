@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Настя\\программ\\HW4\\examples\\ex2\\ex2.csproj",
+      "projectUniqueName": "D:\\Настя\\программ\\HW5\\examples\\ex2\\ex2.csproj",
       "projectName": "ex2",
-      "projectPath": "D:\\Настя\\программ\\HW4\\examples\\ex2\\ex2.csproj",
+      "projectPath": "D:\\Настя\\программ\\HW5\\examples\\ex2\\ex2.csproj",
       "packagesPath": "C:\\Users\\nstan\\.nuget\\packages\\",
-      "outputPath": "D:\\Настя\\программ\\HW4\\examples\\ex2\\obj\\",
+      "outputPath": "D:\\Настя\\программ\\HW5\\examples\\ex2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
